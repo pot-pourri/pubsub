@@ -1,0 +1,19 @@
+{
+	"license": "AGPL-3.0",
+	"version": "0.0.0",
+	"homepage": "http://aureooms.github.io/js-pubsub/",
+	"ignore": [
+		"js/index.js",
+		"js/src",
+		"test",
+		"pkg.json",
+		"package.json",
+		".groc.json",
+		".travis.yml",
+		".gitignore",
+		"README.md"
+	],
+	"name": "aureooms-js-pubsub",
+	"main": "js/dist/pubsub.js",
+	"description": "publish-subscribe pattern code bricks for JavaScript"
+}

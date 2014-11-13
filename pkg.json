@@ -1,0 +1,17 @@
+{
+	"out": "js/dist/",
+	"ns": "pubsub",
+	"code": {
+		"main": [
+			"js",
+			"dist",
+			"pubsub.js"
+		],
+		"test": [
+			"test",
+			"js"
+		]
+	},
+	"debug": false,
+	"src": "js/src/"
+}
