@@ -1,8 +1,16 @@
 
-
-var StampNode = function ( subscriptions, stamp ) {
+/**
+ * pubsub node that only notifies clients whose stamp is less than
+ * the currently published stamp.
+ *
+ * @param {dict} subscriptions a ( key, stamp ) python-style dict
+ * @param {comparable} stamp
+ * @param {comparator} the comparison function used to compare stamps
+ */
+var StampNode = function ( subscriptions, stamp, compare ) {
 	this.subscriptions = subscriptions;
 	this.stamp = stamp;
+	this.compare = compare;
 };
 
 
@@ -19,19 +27,7 @@ var StampNode = function ( subscriptions, stamp ) {
 
 StampNode.prototype.subscribe = function ( key, stamp, forward ) {
 
-	if ( this.stamp > stamp ) {
-
-		forward( key, this.stamp );
-
-		this.subscriptions.set( key, this.stamp );
-
-	}
-
-	else {
-
-		this.subscriptions.set( key, stamp );
-
-	}
+	this.subscriptions.set( key, this.update( forward )( key, stamp ) );
 
 };
 
@@ -45,13 +41,23 @@ StampNode.prototype.unsubscribe = function ( key ) {
 
 StampNode.prototype.publish = function ( stamp, forward ) {
 
-	this.subscriptions.each( function ( key, stamp ) {
+	this.stamp = stamp;
 
-		if ( this.stamp > stamp ) {
+	this.subscriptions.update( this.update( forward ) );
 
-			forward( key, this.stamp );
+};
 
-			return this.stamp;
+StampNode.prototype.update = function ( forward ) {
+
+	var that = this;
+
+	return function ( key, stamp ) {
+
+		if ( that.compare( that.stamp, stamp ) > 0 ) {
+
+			forward( key, that.stamp );
+
+			return that.stamp;
 		}
 
 		else {
@@ -60,7 +66,7 @@ StampNode.prototype.publish = function ( stamp, forward ) {
 
 		}
 
-	} );
+	};
 
 };
 
