@@ -1,6 +1,6 @@
 {
 	"description": "publish-subscribe pattern code bricks for JavaScript",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"repo": "aureooms/js-pubsub",
 	"scripts": [
 		"js/dist/pubsub.js"

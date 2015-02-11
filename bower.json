@@ -1,6 +1,6 @@
 {
 	"license": "AGPL-3.0",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"homepage": "http://aureooms.github.io/js-pubsub/",
 	"ignore": [
 		"js/index.js",
