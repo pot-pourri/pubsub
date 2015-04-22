@@ -13,3 +13,4 @@ publish-subscribe pattern code bricks for JavaScript
 [![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-pubsub.svg?style=flat)](https://codeclimate.com/github/aureooms/js-pubsub)
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-pubsub.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-pubsub)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-pubsub.svg?style=flat)](https://github.com/aureooms/js-pubsub/issues)
+[![Inline docs](http://inch-ci.org/github/aureooms/js-pubsub.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-pubsub)
