@@ -1,7 +1,8 @@
 [js-pubsub](http://aureooms.github.io/js-pubsub)
 ==
 
-publish-subscribe pattern code bricks for JavaScript
+Publish-subscribe pattern code bricks for JavaScript. Parent is
+[aureooms/js-data-structures](https://github.com/aureooms/js-data-structures).
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-pubsub.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-pubsub/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-pubsub.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-pubsub)
