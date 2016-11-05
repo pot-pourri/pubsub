@@ -5,7 +5,7 @@
  *
  * @param {dict} subscriptions a ( key, stamp ) python-style dict
  * @param {comparable} stamp
- * @param {comparator} the comparison function used to compare stamps
+ * @param {comparator} compare the comparison function used to compare stamps
  */
 export const StampNode = function ( subscriptions, stamp, compare ) {
 	this.subscriptions = subscriptions;
