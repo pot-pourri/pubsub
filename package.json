@@ -1,6 +1,6 @@
 {
   "name": "aureooms-js-pubsub",
-  "description": "Publish-subscribe pattern library for JavaScript",
+  "description": "Publish-subscribe data structures for JavaScript",
   "version": "0.1.2",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
   "ava": {
@@ -38,7 +38,6 @@
   },
   "homepage": "http://aureooms.github.io/js-pubsub",
   "keywords": [
-    "bricks",
     "javascript",
     "js",
     "pubsub"
