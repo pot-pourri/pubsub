@@ -1,9 +1,3 @@
-(function(exports, undefined){
-
-	'use strict';
-
-
-/* js/src/StampNode.js */
 
 /**
  * pubsub node that only notifies clients whose stamp is less than
@@ -13,11 +7,11 @@
  * @param {comparable} stamp
  * @param {comparator} the comparison function used to compare stamps
  */
-var StampNode = function ( subscriptions, stamp, compare ) {
+export const StampNode = function ( subscriptions, stamp, compare ) {
 	this.subscriptions = subscriptions;
 	this.stamp = stamp;
 	this.compare = compare;
-};
+} ;
 
 
 /**
@@ -55,7 +49,7 @@ StampNode.prototype.publish = function ( stamp, forward ) {
 
 StampNode.prototype.update = function ( forward ) {
 
-	var that = this;
+	const that = this;
 
 	return function ( key, stamp ) {
 
@@ -75,8 +69,3 @@ StampNode.prototype.update = function ( forward ) {
 	};
 
 };
-
-
-exports.StampNode = StampNode;
-
-})(typeof exports === 'undefined' ? this['pubsub'] = {} : exports);
