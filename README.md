@@ -4,7 +4,7 @@
 Publish-subscribe pattern data structures for JavaScript. Parent is
 [aureooms/js-data-structures](https://github.com/aureooms/js-data-structures).
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-pubsub.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-pubsub/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-pubsub.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-pubsub/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-pubsub.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-pubsub)
 [![Build Status](https://img.shields.io/travis/aureooms/js-pubsub.svg?style=flat)](https://travis-ci.org/aureooms/js-pubsub)
 [![Coverage Status](https://img.shields.io/coveralls/aureooms/js-pubsub.svg?style=flat)](https://coveralls.io/r/aureooms/js-pubsub)
