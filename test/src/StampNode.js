@@ -1,8 +1,8 @@
 import test from 'ava' ;
 
-import { Dict } from "aureooms-js-dict" ;
-import * as heapsort from "aureooms-js-heapsort" ;
-import { increasing , lexicographical } from "aureooms-js-compare" ;
+import { Dict } from "@aureooms/js-dict" ;
+import * as heapsort from "@aureooms/js-heapsort" ;
+import { increasing , lexicographical } from "@aureooms/js-compare" ;
 
 import { StampNode } from '../../src' ;
 
