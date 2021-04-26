@@ -1,4 +1,4 @@
-[js-pubsub](http://aureooms.github.io/js-pubsub)
+[js-pubsub](http://make-github-pseudonymous-again.github.io/js-pubsub)
 ==
 
 Publish-subscribe pattern data structures for JavaScript. Parent is
@@ -13,4 +13,4 @@ Publish-subscribe pattern data structures for JavaScript. Parent is
 [![Code Climate](https://img.shields.io/codeclimate/github/aureooms/js-pubsub.svg?style=flat)](https://codeclimate.com/github/aureooms/js-pubsub)
 [![NPM downloads per month](https://img.shields.io/npm/dm/@aureooms/js-pubsub.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-pubsub)
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/js-pubsub.svg?style=flat)](https://github.com/aureooms/js-pubsub/issues)
-[![Documentation](https://aureooms.github.io/js-pubsub/badge.svg)](https://aureooms.github.io/js-pubsub/source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-pubsub/badge.svg)](https://make-github-pseudonymous-again.github.io/js-pubsub/source.html)
