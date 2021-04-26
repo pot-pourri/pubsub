@@ -20,7 +20,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-pubsub/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-pubsub/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -46,7 +46,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aureooms/js-pubsub.git"
+    "url": "https://github.com/make-github-pseudonymous-again/js-pubsub.git"
   },
   "scripts": {
     "build": "babel src -d lib",
